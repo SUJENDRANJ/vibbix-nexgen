@@ -2107,8 +2107,8 @@ textarea.w-select {
 :root {
   --white: black;
   --main-color: white;
-  --second-color: #2b20ff;
-  --third-color: #2018bf;
+  --second-color: #b49300;
+  --third-color: #efdf00;
   --body-text-color: #d9dae2;
   --divider-color: #d8dfe0;
 }
@@ -4601,9 +4601,10 @@ figcaption {
 }
 
 .logo-client {
-  /* filter: invert(); */
   height: 5rem;
   max-height: 5rem;
+
+  
 }
 
 .fade-in-wrapper {
