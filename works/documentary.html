@@ -304,108 +304,189 @@
       </section>
 
       <!-- footer -->
-      <section
-        data-w-id="ce4b46b4-a130-dd05-ffe7-a688d5794764"
-        class="footer"
-        style="margin: 50px"
-      >
+      <style>
+        .footer-flex {
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          gap: 40px;
+        }
+
+        .footer-title {
+          font-weight: bold;
+          font-size: 18px;
+          margin-bottom: 15px;
+        }
+
+        .navigation-flex {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+
+        .button-line {
+          text-decoration: none;
+          color: #fff;
+          position: relative;
+          display: inline-block;
+          transition: color 0.3s ease;
+        }
+
+        .button-line:hover {
+          color: #f5d76e; /* optional hover color */
+        }
+
+        .line-bottom {
+          height: 2px;
+          background: white;
+          width: 0;
+          transition: width 0.3s ease;
+          position: absolute;
+          bottom: -2px;
+          left: 0;
+        }
+
+        .button-line:hover .line-bottom {
+          width: 100%;
+        }
+
+        .container {
+          position: relative;
+          z-index: 2;
+          padding: 60px 20px;
+          color: #fff;
+        }
+
+        @media (max-width: 768px) {
+          .footer-flex {
+            flex-direction: column;
+          }
+
+          .footer-flex > div {
+            margin-bottom: 30px;
+          }
+
+          .footer-title {
+            font-size: 16px;
+          }
+        }
+      </style>
+
+      <section style="position: relative">
+        <div style="position: absolute; inset: 0">
+          <video
+            style="object-fit: cover"
+            height="100%"
+            width="100%"
+            src="https://framerusercontent.com/assets/fQM1RaSPcHPbMZR0PCsoGur0U.mp4"
+            loop
+            muted
+            autoplay
+          ></video>
+          <!-- Overlay -->
+          <div
+            style="
+              position: absolute;
+              inset: 0;
+              background: rgba(0, 0, 0, 0.6);
+              z-index: 1;
+            "
+          ></div>
+        </div>
+
         <div class="container">
           <div>
-            <div>
-              <div class="footer-grid-second">
-                <div
-                  id="w-node-ce4b46b4-a130-dd05-ffe7-a688d5794769-d5794764"
-                  class="flex-space-between"
-                ></div>
-                <div id="w-node-ce4b46b4-a130-dd05-ffe7-a688d579477c-d5794764">
-                  <div>
-                    <div class="footer-title">Sitemap</div>
-                    <div class="navigation-flex">
-                      <a
-                        href="../#home"
-                        aria-current="page"
-                        class="button-line w-inline-block w--current"
-                        ><div>Home</div>
-                        <div class="line-bottom"></div></a
-                      ><a href="../#about" class="button-line w-inline-block"
-                        ><div>About</div>
-                        <div class="line-bottom"></div
-                      ></a>
-                      <a href="../#work" class="button-line w-inline-block"
-                        ><div>works</div>
-                        <div class="line-bottom"></div
-                      ></a>
-                      <a
-                        href="../services.html"
-                        class="button-line w-inline-block"
-                        ><div>services</div>
-                        <div class="line-bottom"></div
-                      ></a>
-                      <a href="../#contact" class="button-line w-inline-block"
-                        ><div>Contact Us</div>
-                        <div class="line-bottom"></div
-                      ></a>
-                      <!-- <a href="#plans" class="button-line w-inline-block"
-                        ><div>plans</div>
-                        <div class="line-bottom"></div></a
-                      ><a href="#contact" class="button-line w-inline-block"
-                        ><div>contact</div>
-                        <div class="line-bottom"></div
-                      ></a> -->
-                    </div>
-                  </div>
-                </div>
-                <!-- <div id="w-node-ce4b46b4-a130-dd05-ffe7-a688d5794791-d5794764">
-                  <div class="footer-title">Legal</div>
+            <div class="footer-flex">
+              <!-- Sitemap -->
+              <div id="w-node-ce4b46b4-a130-dd05-ffe7-a688d579477c-d5794764">
+                <div>
+                  <div class="footer-title">Sitemap</div>
                   <div class="navigation-flex">
                     <a
-                      href="/template-info/style-guide"
-                      class="button-line w-inline-block"
-                      ><div>Style Guide</div>
-                      <div class="line-bottom"></div></a
-                    ><a
-                      href="/template-info/licensing"
-                      class="button-line w-inline-block"
-                      ><div>Licensing</div>
-                      <div class="line-bottom"></div></a
-                    ><a
-                      href="/template-info/changelog"
-                      class="button-line w-inline-block"
-                      ><div>Changelog</div>
-                      <div class="line-bottom"></div
-                    ></a>
-                  </div>
-                </div> -->
-                <div id="w-node-ce4b46b4-a130-dd05-ffe7-a688d57947a1-d5794764">
-                  <div class="footer-title">Social</div>
-                  <div class="navigation-flex">
-                    <a
-                      href="https://www.instagram.com/vibbix_studio?igsh=OWpobGVycGJvam94"
-                      target="_blank"
-                      class="button-line w-inline-block"
-                      ><div>Instagram</div>
-                      <div class="line-bottom"></div></a
-                    ><a
-                      href="https://linkedin.com/"
-                      target="_blank"
-                      class="button-line w-inline-block"
-                      ><div>Linkedin</div>
-                      <div class="line-bottom"></div></a
-                    ><a
-                      href="https://www.facebook.com/profile.php?id=61578777051022"
-                      target="_blank"
-                      class="button-line w-inline-block"
-                      ><div>Facebook</div>
-                      <div class="line-bottom"></div></a
-                    ><a
-                      href="https://x.com/Vibbixstudio?t=U4S6-6n05CWLwtfrCFpJZg&s=09"
-                      target="_blank"
-                      class="button-line w-inline-block"
-                      ><div>X</div>
-                      <div class="line-bottom"></div
-                    ></a>
+                      href="../#home"
+                      class="button-line w-inline-block w--current"
+                    >
+                      <div>Home</div>
+                      <div class="line-bottom"></div>
+                    </a>
+                    <a href="../#about" class="button-line w-inline-block">
+                      <div>About</div>
+                      <div class="line-bottom"></div>
+                    </a>
+                    <a href="../#work" class="button-line w-inline-block">
+                      <div>Works</div>
+                      <div class="line-bottom"></div>
+                    </a>
+                    <a href="../#services" class="button-line w-inline-block">
+                      <div>Services</div>
+                      <div class="line-bottom"></div>
+                    </a>
+                    <a href="../#contact" class="button-line w-inline-block">
+                      <div>Contact Us</div>
+                      <div class="line-bottom"></div>
+                    </a>
                   </div>
                 </div>
+              </div>
+
+              <!-- Social -->
+              <div id="w-node-ce4b46b4-a130-dd05-ffe7-a688d57947a1-d5794764">
+                <div class="footer-title">Social</div>
+                <div class="navigation-flex">
+                  <a
+                    href="https://www.instagram.com/vibbix_studio?igsh=OWpobGVycGJvam94"
+                    target="_blank"
+                    class="button-line w-inline-block"
+                  >
+                    <div>Instagram</div>
+                    <div class="line-bottom"></div>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/company/vibbix-studio/"
+                    target="_blank"
+                    class="button-line w-inline-block"
+                  >
+                    <div>Linkedin</div>
+                    <div class="line-bottom"></div>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61578777051022"
+                    target="_blank"
+                    class="button-line w-inline-block"
+                  >
+                    <div>Facebook</div>
+                    <div class="line-bottom"></div>
+                  </a>
+                  <a
+                    href="https://x.com/Vibbixstudio?t=U4S6-6n05CWLwtfrCFpJZg&s=09"
+                    target="_blank"
+                    class="button-line w-inline-block"
+                  >
+                    <div>X</div>
+                    <div class="line-bottom"></div>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Address & Contact -->
+              <div
+                id="w-node-ce4b46b4-a130-dd05-ffe7-a688d5794769-d5794764"
+                class="navigation-flex"
+              >
+                <div class="footer-title">📍 Find Us</div>
+                <p>
+                  K.S.R College of Engineering,<br />Tiruchengode, Namakkal Dt.
+                </p>
+
+                <div class="footer-title">📞 Enquiry</div>
+                <a href="mailto:vibbixstudio@gmail.com" class="button-line">
+                  <div>vibbixstudio@gmail.com</div>
+                  <div class="line-bottom"></div>
+                </a>
+                <a href="tel:+918838758506" class="button-line">
+                  <div>+91 88387 58506</div>
+                  <div class="line-bottom"></div>
+                </a>
               </div>
             </div>
           </div>
