@@ -328,95 +328,100 @@
 
                       <!-- service 1 -->
 
+                      <!-- service 1 -->
                       <style>
-                        .service-content-wrapper {
-                          padding: 60px 20px;
-                          background-color: #f9f9f9; /* subtle background */
-                          border-radius: 16px;
-                          box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
-                        }
-
-                        .service-content-block {
-                          max-width: 900px;
-                          margin: 0 auto;
-                        }
-
-                        .service-title {
-                          font-size: 2rem;
-                          font-weight: 700;
-                          color: #111;
-                          line-height: 1.4;
-                          margin-bottom: 8px;
-                        }
-
-                        .line {
-                          width: 60px;
-                          height: 4px;
+                        .poster-services-section {
+                          color: #fff;
                           background-color: #111;
-                          margin: 16px 0;
                         }
 
-                        .text-size-medium {
-                          font-size: 1rem;
-                          line-height: 1.75;
-                          color: #444;
+                        .poster-services-section .intro {
+                          max-width: 800px;
+                          margin: 0 auto 40px;
+                          text-align: center;
                         }
 
-                        .text-color-secondary {
-                          color: #555;
+                        .poster-services-section .intro h2 {
+                          font-size: 4rem;
+                          margin-bottom: 20px;
                         }
 
-                        ul.text-size-medium li {
-                          margin-bottom: 10px;
-                          padding-left: 4px;
+                        .poster-services-section .intro p {
+                          font-size: 1.3rem;
+                          color: #ccc;
+                          line-height: 1.6;
                         }
 
-                        ul.text-size-medium li strong {
-                          color: #111;
+                        .poster-grid {
+                          display: grid;
+                          grid-template-columns: repeat(
+                            auto-fit,
+                            minmax(250px, 1fr)
+                          );
+                          gap: 50px;
+                          margin-top: 40px;
+                        }
+
+                        .poster-box {
+                          background: #1a1a1a;
+                          border-radius: 16px;
+                          padding: 30px 20px;
+                          text-align: center;
+                          transition: transform 0.3s ease, box-shadow 0.3s ease;
+                        }
+
+                        .poster-box:hover {
+                          transform: translateY(-6px);
+                          box-shadow: 0 10px 20px rgba(255, 255, 255, 0.05);
+                        }
+
+                        .poster-box h3 {
+                          font-size: 2rem;
+                          color: #fff;
+                          margin-bottom: 12px;
+                        }
+
+                        .poster-box p {
+                          font-size: 1.2rem;
+                          color: #bbb;
+                          line-height: 1.5;
                         }
                       </style>
-                      <div class="service-content-wrapper">
-                        <div class="service-content-block">
-                          <h2 class="service-title">
-                            <br />Graphic Design Services That Elevate Brands
-                          </h2>
-                          <div class="line"></div>
-                          <p class="text-size-medium text-color-secondary">
+
+                      <div class="poster-services-section">
+                        <div class="intro">
+                          <h2>Graphic Design Services That Elevate Brands</h2>
+                          <p>
                             We deliver visually captivating graphic design
                             solutions that amplify your brand identity. From
                             event posters to high-fashion layouts, we merge
                             creativity with strategic storytelling to ensure
                             your visuals spark interest and drive action.
                           </p>
-                          <p
-                            class="text-size-medium text-color-secondary"
-                            style="margin-top: 16px"
-                          >
-                            <strong>Poster Design Services</strong>
-                            <br />
-                            <em>(poster design, graphic design service)</em>
-                          </p>
-                          <ul
-                            class="text-size-medium text-color-secondary"
-                            style="padding-left: 20px; margin-top: 8px"
-                          >
-                            <li>
-                              <strong>Event Posters</strong> – For concerts,
-                              launches & conferences.
-                            </li>
-                            <li>
-                              <strong>Movie Posters</strong> – For indie films,
-                              docs & theater plays.
-                            </li>
-                            <li>
-                              <strong>Fashion Posters</strong> – For runway
-                              shows, new collections.
-                            </li>
-                            <li>
-                              <strong>Educational Posters</strong> – For
-                              schools, health campaigns, awareness drives.
-                            </li>
-                          </ul>
+                        </div>
+
+                        <div class="poster-grid">
+                          <div class="poster-box">
+                            <h3>Event Posters</h3>
+                            <p>For concerts, launches & conferences.</p>
+                          </div>
+
+                          <div class="poster-box">
+                            <h3>Movie Posters</h3>
+                            <p>For indie films, docs & theater plays.</p>
+                          </div>
+
+                          <div class="poster-box">
+                            <h3>Fashion Posters</h3>
+                            <p>For runway shows, new collections.</p>
+                          </div>
+
+                          <div class="poster-box">
+                            <h3>Educational Posters</h3>
+                            <p>
+                              For schools, health campaigns, awareness drives.
+                            </p>
+                          </div>
                         </div>
                       </div>
 
@@ -481,95 +486,90 @@
                       </div>
 
                       <!-- service 2 -->
-                      <div class="service-content-wrapper">
-                        <div class="service-content-block">
-                          <h2 class="service-title">
-                            Social Media Marketing Services
-                          </h2>
-                          <div class="line"></div>
-                          <p class="text-size-medium text-color-secondary">
+                      <section class="poster-services-section">
+                        <div class="intro">
+                          <h2>Social Media Marketing Services</h2>
+                          <p>
                             Your audience lives online—meet them there. We help
                             brands grow with end-to-end social media marketing,
                             platform-specific strategies, and performance-driven
                             campaigns.
                           </p>
+                        </div>
 
-                          <div
-                            class="text-size-medium text-color-secondary"
-                            style="margin-top: 16px"
-                          >
-                            <strong>Our Key Services:</strong>
-                          </div>
-
-                          <ul
-                            class="text-size-medium text-color-secondary"
-                            style="padding-left: 20px; margin-top: 8px"
-                          >
-                            <li>
-                              <strong>Campaign Management</strong><br />
-                              <em
-                                >(social media campaign, digital marketing
-                                strategy, content marketing)</em
-                              ><br />
+                        <div class="poster-grid">
+                          <div class="poster-box">
+                            <h3>Campaign Management</h3>
+                            <p>
                               Increase reach, leads, and engagement with
                               data-backed execution.
-                            </li>
-                            <li style="margin-top: 12px">
-                              <strong>Platform-Specific Strategy</strong><br />
-                              <em
-                                >(Instagram strategy, TikTok marketing, LinkedIn
-                                B2B growth)</em
-                              ><br />
-                              Custom strategies for Instagram, Facebook,
-                              LinkedIn, TikTok, X (Twitter), and more.
-                            </li>
-                            <li style="margin-top: 12px">
-                              <strong>Social Media Audits</strong><br />
-                              <em
-                                >(performance analytics, social audit, audience
-                                analysis)</em
-                              ><br />
-                              Deep-dive reports that reveal insights and
-                              actionable improvements.
-                            </li>
-                            <li style="margin-top: 12px">
-                              <strong>Crisis Management</strong><br />
-                              <em
-                                >(online brand recovery, PR crisis strategy)</em
-                              ><br />
-                              Rapid response content and reputation management
-                              during tough times.
-                            </li>
-                            <li style="margin-top: 12px">
-                              <strong>Scheduling & Content Planning</strong
-                              ><br />
-                              <em
-                                >(content calendar, scheduling tools, social
-                                media scheduler)</em
-                              ><br />
-                              On-brand, consistent posting aligned with
-                              algorithms and user behavior.
-                            </li>
-                          </ul>
-
-                          <div
-                            class="text-size-medium text-color-secondary"
-                            style="margin-top: 20px"
-                          >
-                            <strong>Why Choose Us?</strong>
+                            </p>
                           </div>
 
-                          <ul
-                            class="text-size-medium text-color-secondary"
-                            style="padding-left: 20px; margin-top: 8px"
-                          >
-                            <li>SEO-optimized social content</li>
-                            <li>Real-time analytics & monitoring</li>
-                            <li>Cross-platform expertise</li>
-                            <li>Full support from planning to execution</li>
-                          </ul>
+                          <div class="poster-box">
+                            <h3>Platform-Specific Strategy</h3>
+                            <p>
+                              Custom strategies for Instagram, Facebook,
+                              LinkedIn, TikTok, X (Twitter), and more.
+                            </p>
+                          </div>
+
+                          <div class="poster-box">
+                            <h3>Social Media Audits</h3>
+                            <p>
+                              Deep-dive reports that reveal insights and
+                              actionable improvements.
+                            </p>
+                          </div>
+
+                          <div class="poster-box">
+                            <h3>Crisis Management</h3>
+                            <p>
+                              Rapid response content and reputation management
+                              during tough times.
+                            </p>
+                          </div>
+
+                          <div class="poster-box">
+                            <h3>Scheduling & Content Planning</h3>
+                            <p>
+                              On-brand, consistent posting aligned with
+                              algorithms and user behavior.
+                            </p>
+                          </div>
+
+                          <div class="poster-box">
+                            <h3>SEO-Optimized Social Content</h3>
+                            <p>
+                              Crafted to enhance discoverability and engagement.
+                            </p>
+                          </div>
+
+                          <div class="poster-box">
+                            <h3>Real-Time Analytics & Monitoring</h3>
+                            <p>
+                              Track campaign success and make informed decisions
+                              quickly.
+                            </p>
+                          </div>
+
+                          <div class="poster-box">
+                            <h3>Cross-Platform Expertise</h3>
+                            <p>
+                              Experience with all major platforms ensures
+                              maximum impact.
+                            </p>
+                          </div>
+
+                          <div class="poster-box">
+                            <h3>Full Support</h3>
+                            <p>
+                              We assist from strategy and planning to flawless
+                              execution.
+                            </p>
+                          </div>
                         </div>
-                      </div>
+                      </section>
 
                       <div
                         data-w-id="6c27f9e7-5903-0ed7-0c1f-426819522453"
@@ -633,94 +633,89 @@
                       </div>
 
                       <!-- service 3 -->
-                      <div class="service-content-wrapper">
-                        <div class="service-content-block">
-                          <h2 class="service-title">
-                            Content Writing Services
-                          </h2>
-                          <div class="line"></div>
-                          <p class="text-size-medium text-color-secondary">
+
+                      <section class="poster-services-section">
+                        <div class="intro">
+                          <h2>Content Writing Services</h2>
+                          <p>
                             We deliver high-converting, SEO-rich content that
                             matches your tone and goals—crafted to convert and
                             connect.
                           </p>
-
-                          <div
-                            class="text-size-medium text-color-secondary"
-                            style="margin-top: 16px"
-                          >
-                            <strong>Types of Content We Create:</strong>
-                          </div>
-
-                          <ul
-                            class="text-size-medium text-color-secondary"
-                            style="padding-left: 20px; margin-top: 8px"
-                          >
-                            <li>
-                              <strong>Website Content</strong><br />
-                              <em
-                                >(web copywriting, SEO-friendly pages,
-                                conversion content)</em
-                              ><br />
-                              Build trust and drive action with clean, clear
-                              messaging.
-                            </li>
-                            <li style="margin-top: 12px">
-                              <strong>Social Media Captions</strong><br />
-                              <em
-                                >(engagement captions, platform-specific
-                                content)</em
-                              ><br />
-                              Words that spark conversation and boost
-                              interaction.
-                            </li>
-                            <li style="margin-top: 12px">
-                              <strong>Script Writing</strong><br />
-                              <em
-                                >(video script, podcast intro/outro, YouTube
-                                content)</em
-                              ><br />
-                              Structured narratives for visual and audio
-                              storytelling.
-                            </li>
-                            <li style="margin-top: 12px">
-                              <strong>Product Descriptions</strong><br />
-                              <em
-                                >(eCommerce SEO, persuasive copywriting, product
-                                copy)</em
-                              ><br />
-                              Highlight benefits and features to encourage buyer
-                              decisions.
-                            </li>
-                            <li style="margin-top: 12px">
-                              <strong>Taglines & Slogans</strong><br />
-                              <em
-                                >(brand messaging, creative slogans, tagline
-                                writing)</em
-                              ><br />
-                              Bold, catchy lines that define your brand
-                              identity.
-                            </li>
-                          </ul>
-
-                          <div
-                            class="text-size-medium text-color-secondary"
-                            style="margin-top: 20px"
-                          >
-                            <strong>Why Work With VIBBIX?</strong>
-                          </div>
-
-                          <ul
-                            class="text-size-medium text-color-secondary"
-                            style="padding-left: 20px; margin-top: 8px"
-                          >
-                            <li>SEO-optimized, platform-specific copy</li>
-                            <li>Consistent brand voice</li>
-                            <li>Clear, persuasive writing</li>
-                            <li>Fast turnaround with high quality</li>
-                          </ul>
                         </div>
-                      </div>
+
+                        <div class="poster-grid">
+                          <div class="poster-box">
+                            <h3>Website Content</h3>
+                            <p>
+                              Build trust and drive action with clean, clear
+                              messaging tailored to your brand voice.
+                            </p>
+                          </div>
+                          <div class="poster-box">
+                            <h3>Social Media Captions</h3>
+                            <p>
+                              Words that spark conversation, increase
+                              engagement, and build community.
+                            </p>
+                          </div>
+                          <div class="poster-box">
+                            <h3>Script Writing</h3>
+                            <p>
+                              Structured narratives for impactful visual and
+                              audio storytelling across platforms.
+                            </p>
+                          </div>
+                          <div class="poster-box">
+                            <h3>Product Descriptions</h3>
+                            <p>
+                              Compelling descriptions that highlight benefits
+                              and persuade users to act.
+                            </p>
+                          </div>
+                          <div class="poster-box">
+                            <h3>Taglines & Slogans</h3>
+                            <p>
+                              Bold, catchy lines that define your brand identity
+                              and leave a lasting impression.
+                            </p>
+                          </div>
+                        </div>
+
+                        <div class="intro" style="margin-top: 50px">
+                          <h2>Why Work With VIBBIX?</h2>
+                        </div>
+
+                        <div class="poster-grid">
+                          <div class="poster-box">
+                            <h3>SEO-Optimized Copy</h3>
+                            <p>
+                              Crafted to perform on search engines while staying
+                              human-centric.
+                            </p>
+                          </div>
+                          <div class="poster-box">
+                            <h3>Consistent Brand Voice</h3>
+                            <p>
+                              We maintain tone and style that matches your brand
+                              personality.
+                            </p>
+                          </div>
+                          <div class="poster-box">
+                            <h3>Persuasive & Clear</h3>
+                            <p>
+                              Focused on clarity, conversions, and user action.
+                            </p>
+                          </div>
+                          <div class="poster-box">
+                            <h3>Fast & Reliable</h3>
+                            <p>
+                              Quick delivery without compromising quality or
+                              creativity.
+                            </p>
+                          </div>
+                        </div>
+                      </section>
 
                       <div
                         data-w-id="6c27f9e7-5903-0ed7-0c1f-426819522453"
@@ -781,94 +776,81 @@
                       </div>
 
                       <!-- service 4 -->
-                      <div class="service-content-wrapper">
-                        <div class="service-content-block">
-                          <h2 class="service-title">
-                            Professional Videography Services
-                          </h2>
-                          <div class="line"></div>
-                          <p class="text-size-medium text-color-secondary">
+                      <section class="poster-services-section">
+                        <div class="intro">
+                          <h2>Professional Videography Services</h2>
+                          <p>
                             We turn ideas into high-impact video
                             content—cinematic, engaging, and aligned with your
                             goals.
                           </p>
+                        </div>
 
-                          <div
-                            class="text-size-medium text-color-secondary"
-                            style="margin-top: 16px"
-                          >
-                            <strong>Our Videography Specialties:</strong>
-                          </div>
-
-                          <ul
-                            class="text-size-medium text-color-secondary"
-                            style="padding-left: 20px; margin-top: 8px"
-                          >
-                            <li>
-                              <strong>Event Coverage</strong><br />
-                              <em
-                                >(live event filming, professional
-                                videography)</em
-                              ><br />
+                        <div class="poster-grid">
+                          <div class="poster-box">
+                            <h3>Event Coverage</h3>
+                            <p>
                               Corporate events, weddings, brand activations, and
                               conferences.
-                            </li>
-                            <li style="margin-top: 12px">
-                              <strong>Social Media Reels & Shorts</strong><br />
-                              <em
-                                >(Instagram Reels, TikTok content, viral video
-                                production)</em
-                              ><br />
+                            </p>
+                          </div>
+                          <div class="poster-box">
+                            <h3>Social Media Reels & Shorts</h3>
+                            <p>
                               Short-form, scroll-stopping, trend-aware content.
-                            </li>
-                            <li style="margin-top: 12px">
-                              <strong>Product Videos</strong><br />
-                              <em
-                                >(eCommerce videos, product marketing, Amazon
-                                videos)</em
-                              ><br />
+                            </p>
+                          </div>
+                          <div class="poster-box">
+                            <h3>Product Videos</h3>
+                            <p>
                               Feature-focused visuals to build trust and drive
                               conversions.
-                            </li>
-                            <li style="margin-top: 12px">
-                              <strong>Vlogs & Lifestyle Videos</strong><br />
-                              <em>(vlog production, lifestyle storytelling)</em
-                              ><br />
+                            </p>
+                          </div>
+                          <div class="poster-box">
+                            <h3>Vlogs & Lifestyle Videos</h3>
+                            <p>
                               Personal brand or behind-the-scenes journeys,
                               crafted to connect.
-                            </li>
-                            <li style="margin-top: 12px">
-                              <strong>Infrastructure Videos</strong><br />
-                              <em
-                                >(facility walkthroughs, construction
-                                showcase)</em
-                              ><br />
+                            </p>
+                          </div>
+                          <div class="poster-box">
+                            <h3>Infrastructure Videos</h3>
+                            <p>
                               Showcase architecture, scale, and design with
                               cinematic polish.
-                            </li>
-                          </ul>
-
-                          <div
-                            class="text-size-medium text-color-secondary"
-                            style="margin-top: 20px"
-                          >
-                            <strong>Why Us?</strong>
+                            </p>
                           </div>
-
-                          <ul
-                            class="text-size-medium text-color-secondary"
-                            style="padding-left: 20px; margin-top: 8px"
-                          >
-                            <li>
-                              Full video production (planning, filming, editing)
-                            </li>
-                            <li>
-                              Cinematic quality optimized for web & social
-                            </li>
-                            <li>Story-first approach with fast delivery</li>
-                          </ul>
                         </div>
-                      </div>
+
+                        <div class="intro" style="margin-top: 50px">
+                          <h2>Why Us?</h2>
+                        </div>
+
+                        <div class="poster-grid">
+                          <div class="poster-box">
+                            <h3>End-to-End Production</h3>
+                            <p>
+                              From planning to filming to editing—we handle
+                              everything.
+                            </p>
+                          </div>
+                          <div class="poster-box">
+                            <h3>Web & Social Ready</h3>
+                            <p>
+                              Cinematic quality optimized for every screen and
+                              platform.
+                            </p>
+                          </div>
+                          <div class="poster-box">
+                            <h3>Fast & Story-Driven</h3>
+                            <p>
+                              We prioritize storytelling with fast delivery
+                              timelines.
+                            </p>
+                          </div>
+                        </div>
+                      </section>
 
                       <div
                         data-w-id="6c27f9e7-5903-0ed7-0c1f-426819522453"
@@ -929,131 +911,149 @@
                       </div>
 
                       <!-- service 5 -->
-                      <div class="service-content-wrapper">
-                        <div class="service-content-block">
-                          <h2 class="service-title">
+                      <style></style>
+
+                      <div
+                        class="service-content-wrapper"
+                        style="width: 95vw; text-align: center"
+                      >
+                        <div class="">
+                          <h2 class="service-title" style="margin-bottom: 30px">
                             Video Editing & Animation Services
                           </h2>
                           <div class="line"></div>
-                          <p class="text-size-medium text-color-secondary">
+                          <p
+                            class="text-size-medium text-color-secondary"
+                            style="margin: 30px"
+                          >
                             We specialize in video editing and animation that
                             tells a story, delivers clarity, and connects with
                             viewers on any platform.
                           </p>
 
-                          <div
-                            class="text-size-medium text-color-secondary"
-                            style="margin-top: 16px"
-                          >
-                            <strong>Video Editing Services:</strong>
+                          <div style="width: 100%; text-align: center">
+                            <!-- Box 1: Video Editing Services -->
+                            <section class="poster-services-section">
+                              <div class="intro">
+                                <h2>Video Editing Services</h2>
+                                <p>
+                                  From narrative-driven edits to viral
+                                  short-form content, our editing services are
+                                  tailored to your goals and audience.
+                                </p>
+                              </div>
+
+                              <div class="poster-grid">
+                                <div class="poster-box">
+                                  <h3>Documentary-Style Edits</h3>
+                                  <p>
+                                    Authentic, narrative-driven edits with high
+                                    engagement.
+                                  </p>
+                                </div>
+                                <div class="poster-box">
+                                  <h3>Educational Edits</h3>
+                                  <p>
+                                    Clean, logical video flow for better
+                                    learning outcomes.
+                                  </p>
+                                </div>
+                                <div class="poster-box">
+                                  <h3>Event Edits & Highlights</h3>
+                                  <p>
+                                    Capture the best moments in a visually
+                                    powerful way.
+                                  </p>
+                                </div>
+                                <div class="poster-box">
+                                  <h3>Vlog Editing</h3>
+                                  <p>
+                                    Keep the audience engaged from intro to
+                                    outro.
+                                  </p>
+                                </div>
+                                <div class="poster-box">
+                                  <h3>Music Video Editing</h3>
+                                  <p>
+                                    High-energy, creative edits for artists and
+                                    bands.
+                                  </p>
+                                </div>
+                                <div class="poster-box">
+                                  <h3>Short-Form Content</h3>
+                                  <p>Trend-driven videos built to go viral.</p>
+                                </div>
+                              </div>
+                            </section>
+
+                            <!-- Box 2: Animation Services -->
+                            <section
+                              class="poster-services-section"
+                              style="margin-top: 50px; margin-bottom: 50px"
+                            >
+                              <div class="intro">
+                                <h2>Animation Services</h2>
+                                <p>
+                                  Bring your brand to life with motion. From
+                                  logo reveals to scroll-stopping social
+                                  animations, we deliver visuals that move your
+                                  audience.
+                                </p>
+                              </div>
+
+                              <div class="poster-grid">
+                                <div class="poster-box">
+                                  <h3>Logo Animations</h3>
+                                  <p>
+                                    Motion graphics that give life to your brand
+                                    identity.
+                                  </p>
+                                </div>
+                                <div class="poster-box">
+                                  <h3>Social Media Animation</h3>
+                                  <p>
+                                    Eye-catching visuals built for engagement.
+                                  </p>
+                                </div>
+                              </div>
+                            </section>
+
+                            <!-- Box 3: Why Choose Us -->
+                            <section class="poster-services-section">
+                              <div class="intro">
+                                <h2>Why Choose Us?</h2>
+                                <p>
+                                  We combine creativity, strategy, and
+                                  collaboration to deliver standout content that
+                                  connects with your audience and grows your
+                                  brand.
+                                </p>
+                              </div>
+
+                              <div class="poster-grid">
+                                <div class="poster-box">
+                                  <p>
+                                    Platform-specific editing with viral
+                                    potential
+                                  </p>
+                                </div>
+                                <div class="poster-box">
+                                  <p>
+                                    Full editing and animation under one roof
+                                  </p>
+                                </div>
+                                <div class="poster-box">
+                                  <p>SEO-focused output to boost visibility</p>
+                                </div>
+                                <div class="poster-box">
+                                  <p>
+                                    Collaboration-first process with your brand
+                                    in mind
+                                  </p>
+                                </div>
+                              </div>
+                            </section>
                           </div>
-
-                          <ul
-                            class="text-size-medium text-color-secondary"
-                            style="padding-left: 20px; margin-top: 8px"
-                          >
-                            <li>
-                              <strong>Documentary-Style Edits</strong><br />
-                              <em
-                                >(emotional storytelling, brand narrative
-                                videos)</em
-                              ><br />
-                              Authentic, narrative-driven edits with high
-                              engagement.
-                            </li>
-                            <li style="margin-top: 12px">
-                              <strong>Educational Edits</strong><br />
-                              <em
-                                >(tutorial editing, e-learning video
-                                editing)</em
-                              ><br />
-                              Clean, logical video flow for better learning
-                              outcomes.
-                            </li>
-                            <li style="margin-top: 12px">
-                              <strong>Event Edits & Highlights</strong><br />
-                              <em
-                                >(event recap videos, conference highlight
-                                reels)</em
-                              ><br />
-                              Capture the best moments in a visually powerful
-                              way.
-                            </li>
-                            <li style="margin-top: 12px">
-                              <strong>Vlog Editing</strong><br />
-                              <em
-                                >(YouTube editor, travel vlogs, lifestyle
-                                edits)</em
-                              ><br />
-                              Keep the audience engaged from intro to outro.
-                            </li>
-                            <li style="margin-top: 12px">
-                              <strong>Music Video Editing</strong><br />
-                              <em>(music video production, cinematic edits)</em
-                              ><br />
-                              High-energy, creative edits for artists and bands.
-                            </li>
-                            <li style="margin-top: 12px">
-                              <strong>Short-Form Content</strong><br />
-                              <em
-                                >(social media reels, TikTok shorts, vertical
-                                video editing)</em
-                              ><br />
-                              Trend-driven videos built to go viral.
-                            </li>
-                          </ul>
-
-                          <div
-                            class="text-size-medium text-color-secondary"
-                            style="margin-top: 20px"
-                          >
-                            <strong>Animation Services:</strong>
-                          </div>
-
-                          <ul
-                            class="text-size-medium text-color-secondary"
-                            style="padding-left: 20px; margin-top: 8px"
-                          >
-                            <li>
-                              <strong>Logo Animations</strong><br />
-                              <em
-                                >(brand intro animation, animated logo
-                                design)</em
-                              ><br />
-                              Motion graphics that give life to your brand
-                              identity.
-                            </li>
-                            <li style="margin-top: 12px">
-                              <strong>Social Media Animation</strong><br />
-                              <em
-                                >(animated Instagram stories, motion
-                                content)</em
-                              ><br />
-                              Eye-catching visuals built for engagement.
-                            </li>
-                          </ul>
-
-                          <div
-                            class="text-size-medium text-color-secondary"
-                            style="margin-top: 20px"
-                          >
-                            <strong>Why Choose Us?</strong>
-                          </div>
-
-                          <ul
-                            class="text-size-medium text-color-secondary"
-                            style="padding-left: 20px; margin-top: 8px"
-                          >
-                            <li>
-                              Platform-specific editing with viral potential
-                            </li>
-                            <li>Full editing + animation under one roof</li>
-                            <li>SEO-focused output to boost visibility</li>
-                            <li>
-                              Collaboration-first process with your brand in
-                              mind
-                            </li>
-                          </ul>
                         </div>
                       </div>
                     </div>
