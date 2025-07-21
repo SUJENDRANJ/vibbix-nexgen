@@ -6220,8 +6220,8 @@ blockquote {
 
 .project-image {
   object-fit: cover;
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
 }
 
 .project-wrapper {
@@ -6247,7 +6247,7 @@ blockquote {
   flex: none;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 80%;
   position: absolute;
   overflow: clip;
 }
@@ -6257,7 +6257,7 @@ blockquote {
   text-transform: uppercase;
   margin-bottom: 0;
   font-family: Instrument Sans, Arial, sans-serif;
-  font-size: 14rem;
+  font-size: 12rem;
   font-weight: 600;
   line-height: 1;
 }
@@ -7917,7 +7917,7 @@ blockquote {
   }
 
   .project-name {
-    font-size: 15rem;
+    font-size: 10rem;
   }
 
   .project-button {
@@ -7971,7 +7971,7 @@ blockquote {
   }
 
   .project-name {
-    font-size: 16rem;
+    font-size: 10rem;
   }
 
   .cta-title,
