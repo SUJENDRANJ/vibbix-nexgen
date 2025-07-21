@@ -333,6 +333,89 @@ pre.w-code-block code {
   display: contents;
 }
 
+.w-webflow-badge,
+.w-webflow-badge > img {
+  box-sizing: unset;
+  width: unset;
+  height: unset;
+  max-height: unset;
+  max-width: unset;
+  min-height: unset;
+  min-width: unset;
+  margin: unset;
+  padding: unset;
+  float: unset;
+  clear: unset;
+  border: unset;
+  border-radius: unset;
+  background: unset;
+  background-image: unset;
+  background-position: unset;
+  background-size: unset;
+  background-repeat: unset;
+  background-origin: unset;
+  background-clip: unset;
+  background-attachment: unset;
+  background-color: unset;
+  box-shadow: unset;
+  transform: unset;
+  direction: unset;
+  font-family: unset;
+  font-weight: unset;
+  color: unset;
+  font-size: unset;
+  line-height: unset;
+  font-style: unset;
+  font-variant: unset;
+  text-align: unset;
+  letter-spacing: unset;
+  -webkit-text-decoration: unset;
+  text-decoration: unset;
+  text-indent: unset;
+  text-transform: unset;
+  list-style-type: unset;
+  text-shadow: unset;
+  vertical-align: unset;
+  cursor: unset;
+  white-space: unset;
+  word-break: unset;
+  word-spacing: unset;
+  word-wrap: unset;
+  transition: unset;
+}
+
+.w-webflow-badge {
+  white-space: nowrap;
+  cursor: pointer;
+  box-shadow: 0 0 0 1px #0000001a, 0 1px 3px #0000001a;
+  visibility: visible !important;
+  opacity: 1 !important;
+  z-index: 2147483647 !important;
+  color: #aaadb0 !important;
+  overflow: unset !important;
+  background-color: #fff !important;
+  border-radius: 3px !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 6px !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  position: fixed !important;
+  inset: auto 12px 12px auto !important;
+  transform: none !important;
+}
+
+.w-webflow-badge > img {
+  position: unset;
+  visibility: unset !important;
+  opacity: 1 !important;
+  vertical-align: middle !important;
+  display: inline-block !important;
+}
+
 h1,
 h2,
 h3,
@@ -5406,32 +5489,10 @@ blockquote {
 }
 
 .header-component-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-  min-height: 100vh; /* Only set minimum height, not fixed */
-}
-
-/* Tablet */
-@media (max-width: 768px) {
-  .header-component-grid {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 15px;
-    padding: 15px;
-  }
-}
-
-/* Mobile */
-@media (max-width: 480px) {
-  .header-component-grid {
-    grid-template-columns: 1fr;
-    gap: 10px;
-    padding: 10px;
-    min-height: auto; /* Let it grow naturally */
-  }
+  height: 100vh;
 }
 
 .circle-container-wrapper {
@@ -6233,8 +6294,8 @@ blockquote {
 .project-content-wrapper {
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   display: flex;
   position: relative;
   overflow: clip;
@@ -6242,8 +6303,8 @@ blockquote {
 
 .project-image {
   object-fit: cover;
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
 }
 
 .project-wrapper {
@@ -6269,7 +6330,7 @@ blockquote {
   flex: none;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 100%;
   position: absolute;
   overflow: clip;
 }
@@ -6279,14 +6340,14 @@ blockquote {
   text-transform: uppercase;
   margin-bottom: 0;
   font-family: Instrument Sans, Arial, sans-serif;
-  font-size: 12rem;
+  font-size: 8rem;
   font-weight: 600;
   line-height: 1;
 }
 
 .project-asterisk {
   color: var(--white);
-  font-size: 14rem;
+  font-size: 8rem;
   line-height: 0.8;
   position: relative;
   bottom: -3.25rem;
@@ -7939,7 +8000,7 @@ blockquote {
   }
 
   .project-name {
-    font-size: 10rem;
+    /* font-size: 15rem; */
   }
 
   .project-button {
@@ -7993,7 +8054,7 @@ blockquote {
   }
 
   .project-name {
-    font-size: 10rem;
+    /* font-size: 16rem; */
   }
 
   .cta-title,
@@ -8421,7 +8482,7 @@ blockquote {
   }
 
   .project-name {
-    font-size: 8rem;
+    font-size: 5rem;
   }
 
   .project-asterisk {
@@ -9140,7 +9201,7 @@ blockquote {
   }
 
   .project-name {
-    font-size: 6rem;
+    font-size: 3rem;
   }
 
   .project-asterisk {
@@ -9750,7 +9811,7 @@ blockquote {
   }
 
   .project-name {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   .project-asterisk {
