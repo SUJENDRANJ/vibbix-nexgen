@@ -272,7 +272,7 @@
                           />
                         </a>
                         <a
-                          href="https://linkedin.com"
+                          href="https://www.linkedin.com/company/vibbix-studio/"
                           target="_blank"
                           class="social-icon"
                           aria-label="LinkedIn"
@@ -786,7 +786,11 @@
       <section class="section" style="padding-top: 30px" id="services">
         <div class="container">
           <div>
-            <div class="flex-big"><h2 class="big-text">Services</h2></div>
+            <div class="flex-big">
+              <p class="testimonials-text">Services</p>
+
+              <!-- <h2 class="big-text">Services</h2> -->
+            </div>
           </div>
           <div class="margin-250px" style="margin-top: 50px">
             <div class="flex-center">
@@ -1155,8 +1159,8 @@
               <div>
                 <div class="fun-facts-grid _3-column">
                   <div class="align-center">
-                    <h3 class="fun-number">19</h3>
-                    <p>Featured work</p>
+                    <h3 class="fun-number">25+</h3>
+                    <p>Trusted Leading Brands</p>
                     <div
                       data-w-id="b114e894-f75f-90e7-13e7-933fde457f9c"
                       class="fade-gradient"
@@ -1164,15 +1168,15 @@
                   </div>
                   <div class="align-center">
                     <h3 class="fun-number">350+</h3>
-                    <p>Projected Completed</p>
+                    <p>Projects Delivered</p>
                     <div
                       data-w-id="f0560cc0-9630-8fac-3152-ea9b45fe6a69"
                       class="fade-gradient"
                     ></div>
                   </div>
                   <div class="align-center">
-                    <h3 class="fun-number">39x</h3>
-                    <p>Awwwards Featured</p>
+                    <h3 class="fun-number">10X</h3>
+                    <p>Delivering Growth Through Creative Strategy</p>
                     <div
                       data-w-id="4662352a-c9ae-c6c9-42e4-d559c4c03d62"
                       class="fade-gradient"
@@ -1744,30 +1748,9 @@
         <div class="container">
           <div>
             <div class="flex-big">
-              <h2
-                data-w-id="a111d9e7-5ad7-8eb1-c724-86fe9c50f964"
-                class="big-text"
-              >
-                Posters
-              </h2>
+              <p class="testimonials-text">Posters and design</p>
             </div>
-            <!-- <div class="flex-big">
-              <h2 class="big-text">and</h2>
-              <div
-                data-w-id="86402a74-dd68-65ee-0ee5-50d155730def"
-                class="image-wrap square"
-              >
-                <img
-                  src="./images/pose.jpeg"
-                  loading="lazy"
-                  sizes="29vw"
-                  alt=""
-                  class="paralax-image"
-                />
-              </div>
-            </div>
-            <div class="flex-big"><h2 class="big-text">Designs</h2></div>
-          </div> -->
+          </div>
         </div>
       </section>
 
@@ -2042,10 +2025,11 @@
         .main-grid {
           width: 100%;
           display: grid;
-          grid-template-columns: 1fr 1fr;
+          grid-template-columns: 1fr;
           gap: 40px;
           padding: 3rem;
           margin-bottom: 10rem;
+          margin-top: 5rem;
         }
 
         @media (max-width: 768px) {
@@ -2055,46 +2039,13 @@
           }
         }
       </style>
+
+      <!-- albums -->
+
       <section id="contact">
         <div class="container">
           <div>
             <div class="main-grid top">
-              <div id="w-node-_79b22503-40ff-41b9-4cab-553e0130fd62-bc7bee16">
-                <div
-                  id="w-node-f9fb9728-4280-c3e9-0e16-d7fd4745966b-bc7bee16"
-                  class="small-number"
-                >
-                  Find us
-                </div>
-                <div class="margin-20px">
-                  <p>
-                    K.S.R College of Engineering, Tiruchengode, Namakkal Dt.
-                  </p>
-                </div>
-                <div class="margin-40px">
-                  <div class="small-number">Enquiry</div>
-                  <div class="margin-20px with-flex">
-                    <div class="navigation-link for-contact w-inline-block">
-                      <div class="button-text-wrapper">
-                        <div class="button-text">vibbixstudio@gmail.com</div>
-                        <div class="button-text">vibbixstudio@gmail.com</div>
-                      </div>
-                      <div class="line-below"></div>
-                    </div>
-                    <div class="navigation-link for-contact w-inline-block">
-                      <div class="button-text-wrapper">
-                        <div class="button-text">
-                          +91 88387 58506<br /><br />
-                        </div>
-                        <div class="button-text">
-                          +91 88387 58506<br /><br />
-                        </div>
-                      </div>
-                      <div class="line-below"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <div
                 id="w-node-_0fea5c5d-1da2-35f0-d551-b4f29d597942-bc7bee16"
                 class="contact-wrapper"
@@ -2201,6 +2152,54 @@
       </section>
 
       <!-- footer -->
+      <style>
+        .footer-flex {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          gap: 40px;
+        }
+
+        .footer-title {
+          font-weight: bold;
+          font-size: 18px;
+          margin-bottom: 15px;
+        }
+
+        .navigation-flex {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+
+        .button-line {
+          text-decoration: none;
+          color: #fff;
+          position: relative;
+          display: inline-block;
+        }
+
+        .line-bottom {
+          height: 2px;
+          background: white;
+          width: 0;
+          transition: width 0.3s ease;
+          position: absolute;
+          bottom: -2px;
+          left: 0;
+        }
+
+        .button-line:hover .line-bottom {
+          width: 100%;
+        }
+
+        @media (max-width: 768px) {
+          .footer-flex {
+            flex-direction: column;
+          }
+        }
+      </style>
+
       <section
         data-w-id="ce4b46b4-a130-dd05-ffe7-a688d5794764"
         class="footer"
@@ -2209,68 +2208,38 @@
         <div class="container">
           <div>
             <div>
-              <div class="footer-grid-second">
-                <div
-                  id="w-node-ce4b46b4-a130-dd05-ffe7-a688d5794769-d5794764"
-                  class="flex-space-between"
-                ></div>
+              <div class="footer-flex">
                 <div id="w-node-ce4b46b4-a130-dd05-ffe7-a688d579477c-d5794764">
                   <div>
                     <div class="footer-title">Sitemap</div>
                     <div class="navigation-flex">
                       <a
                         href="#home"
-                        aria-current="page"
                         class="button-line w-inline-block w--current"
-                        ><div>Home</div>
-                        <div class="line-bottom"></div></a
-                      ><a href="#about" class="button-line w-inline-block"
-                        ><div>About</div>
-                        <div class="line-bottom"></div
-                      ></a>
-                      <a href="#work" class="button-line w-inline-block"
-                        ><div>works</div>
-                        <div class="line-bottom"></div
-                      ></a>
-                      <a href="#services" class="button-line w-inline-block"
-                        ><div>services</div>
-                        <div class="line-bottom"></div
-                      ></a>
-                      <a href="#contact" class="button-line w-inline-block"
-                        ><div>Contact Us</div>
-                        <div class="line-bottom"></div
-                      ></a>
-                      <!-- <a href="#plans" class="button-line w-inline-block"
-                        ><div>plans</div>
-                        <div class="line-bottom"></div></a
-                      ><a href="#contact" class="button-line w-inline-block"
-                        ><div>contact</div>
-                        <div class="line-bottom"></div
-                      ></a> -->
+                      >
+                        <div>Home</div>
+                        <div class="line-bottom"></div>
+                      </a>
+                      <a href="#about" class="button-line w-inline-block">
+                        <div>About</div>
+                        <div class="line-bottom"></div>
+                      </a>
+                      <a href="#work" class="button-line w-inline-block">
+                        <div>Works</div>
+                        <div class="line-bottom"></div>
+                      </a>
+                      <a href="#services" class="button-line w-inline-block">
+                        <div>Services</div>
+                        <div class="line-bottom"></div>
+                      </a>
+                      <a href="#contact" class="button-line w-inline-block">
+                        <div>Contact Us</div>
+                        <div class="line-bottom"></div>
+                      </a>
                     </div>
                   </div>
                 </div>
-                <!-- <div id="w-node-ce4b46b4-a130-dd05-ffe7-a688d5794791-d5794764">
-                  <div class="footer-title">Legal</div>
-                  <div class="navigation-flex">
-                    <a
-                      href="/template-info/style-guide"
-                      class="button-line w-inline-block"
-                      ><div>Style Guide</div>
-                      <div class="line-bottom"></div></a
-                    ><a
-                      href="/template-info/licensing"
-                      class="button-line w-inline-block"
-                      ><div>Licensing</div>
-                      <div class="line-bottom"></div></a
-                    ><a
-                      href="/template-info/changelog"
-                      class="button-line w-inline-block"
-                      ><div>Changelog</div>
-                      <div class="line-bottom"></div
-                    ></a>
-                  </div>
-                </div> -->
+
                 <div id="w-node-ce4b46b4-a130-dd05-ffe7-a688d57947a1-d5794764">
                   <div class="footer-title">Social</div>
                   <div class="navigation-flex">
@@ -2278,28 +2247,55 @@
                       href="https://www.instagram.com/vibbix_studio?igsh=OWpobGVycGJvam94"
                       target="_blank"
                       class="button-line w-inline-block"
-                      ><div>Instagram</div>
-                      <div class="line-bottom"></div></a
-                    ><a
-                      href="https://linkedin.com/"
+                    >
+                      <div>Instagram</div>
+                      <div class="line-bottom"></div>
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/company/vibbix-studio/"
                       target="_blank"
                       class="button-line w-inline-block"
-                      ><div>Linkedin</div>
-                      <div class="line-bottom"></div></a
-                    ><a
+                    >
+                      <div>Linkedin</div>
+                      <div class="line-bottom"></div>
+                    </a>
+                    <a
                       href="https://www.facebook.com/profile.php?id=61578777051022"
                       target="_blank"
                       class="button-line w-inline-block"
-                      ><div>Facebook</div>
-                      <div class="line-bottom"></div></a
-                    ><a
+                    >
+                      <div>Facebook</div>
+                      <div class="line-bottom"></div>
+                    </a>
+                    <a
                       href="https://x.com/Vibbixstudio?t=U4S6-6n05CWLwtfrCFpJZg&s=09"
                       target="_blank"
                       class="button-line w-inline-block"
-                      ><div>X</div>
-                      <div class="line-bottom"></div
-                    ></a>
+                    >
+                      <div>X</div>
+                      <div class="line-bottom"></div>
+                    </a>
                   </div>
+                </div>
+
+                <div
+                  id="w-node-ce4b46b4-a130-dd05-ffe7-a688d5794769-d5794764"
+                  class="flex-space-between"
+                >
+                  <!-- 📍 Find Us + 📞 Enquiry -->
+                  <div class="footer-title">📍 Find Us</div>
+                  <p>
+                    K.S.R College of Engineering,<br />
+                    Tiruchengode, Namakkal Dt.
+                  </p>
+                  <div class="footer-title">📞 Enquiry</div>
+                  <p>
+                    Email:
+                    <a href="mailto:vibbixstudio@gmail.com"
+                      >vibbixstudio@gmail.com</a
+                    ><br />
+                    Phone: <a href="tel:+918838758506">+91 88387 58506</a>
+                  </p>
                 </div>
               </div>
             </div>
