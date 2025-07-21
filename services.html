@@ -333,33 +333,34 @@
                         .poster-services-section {
                           color: #fff;
                           background-color: #111;
+                          /* padding: 60px 20px; */
                         }
 
                         .poster-services-section .intro {
                           max-width: 800px;
                           margin: 0 auto 40px;
                           text-align: center;
+                          padding: 0 20px;
                         }
 
                         .poster-services-section .intro h2 {
-                          font-size: 4rem;
+                          font-size: 3rem;
                           margin-bottom: 20px;
                         }
 
                         .poster-services-section .intro p {
-                          font-size: 1.3rem;
+                          font-size: 1.2rem;
                           color: #ccc;
                           line-height: 1.6;
                         }
 
                         .poster-grid {
-                          display: grid;
-                          grid-template-columns: repeat(
-                            auto-fit,
-                            minmax(250px, 1fr)
-                          );
-                          gap: 50px;
+                          display: flex;
+                          flex-wrap: wrap;
+                          justify-content: center;
+                          gap: 40px;
                           margin-top: 40px;
+                          padding: 0 20px;
                         }
 
                         .poster-box {
@@ -368,6 +369,9 @@
                           padding: 30px 20px;
                           text-align: center;
                           transition: transform 0.3s ease, box-shadow 0.3s ease;
+                          flex: 1 1 280px;
+                          max-width: 320px;
+                          box-sizing: border-box;
                         }
 
                         .poster-box:hover {
@@ -382,9 +386,46 @@
                         }
 
                         .poster-box p {
-                          font-size: 1.2rem;
+                          font-size: 1.1rem;
                           color: #bbb;
                           line-height: 1.5;
+                        }
+
+                        /* Responsive Typography Adjustments */
+                        @media (max-width: 768px) {
+                          .poster-services-section .intro h2 {
+                            font-size: 2.2rem;
+                          }
+
+                          .poster-services-section .intro p {
+                            font-size: 1rem;
+                          }
+
+                          .poster-box p {
+                            font-size: 1rem;
+                          }
+                        }
+
+                        @media (max-width: 480px) {
+                          .poster-services-section {
+                            padding: 40px 15px;
+                          }
+
+                          .poster-box {
+                            padding: 24px 16px;
+                          }
+
+                          .poster-services-section .intro h2 {
+                            font-size: 1.8rem;
+                          }
+
+                          .poster-services-section .intro p {
+                            font-size: 0.95rem;
+                          }
+
+                          .poster-box p {
+                            font-size: 0.95rem;
+                          }
                         }
                       </style>
 
@@ -911,7 +952,6 @@
                       </div>
 
                       <!-- service 5 -->
-                      <style></style>
 
                       <div
                         class="service-content-wrapper"
