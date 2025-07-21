@@ -6301,6 +6301,13 @@ blockquote {
   overflow: clip;
 }
 
+@media screen and (max-width: 500px) {
+  .project-content-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+}
+
 .project-image {
   object-fit: cover;
   width: 100%;
