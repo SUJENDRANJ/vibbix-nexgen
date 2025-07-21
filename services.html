@@ -333,11 +333,9 @@
                         .poster-services-section {
                           color: #fff;
                           background-color: #111;
-                          /* padding: 60px 20px; */
                         }
 
                         .poster-services-section .intro {
-                          /* max-width: 800px; */
                           margin: 0 auto 40px;
                           text-align: center;
                           padding: 0 20px;
@@ -389,6 +387,30 @@
                           font-size: 1.1rem;
                           color: #bbb;
                           line-height: 1.5;
+                        }
+
+                        /* Media query to increase font and box size on smaller devices */
+                        @media (max-width: 768px) {
+                          .poster-box {
+                            /* padding: 40px 24px; */
+                            max-width: 100%;
+                          }
+
+                          .poster-box h3 {
+                            font-size: 5rem;
+                          }
+
+                          .poster-box p {
+                            font-size: 3rem;
+                          }
+
+                          .poster-services-section .intro h2 {
+                            font-size: 7rem;
+                          }
+
+                          .poster-services-section .intro p {
+                            font-size: 3rem;
+                          }
                         }
                       </style>
 
