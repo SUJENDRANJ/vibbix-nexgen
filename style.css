@@ -2107,8 +2107,8 @@ textarea.w-select {
 :root {
   --white: black;
   --main-color: white;
-  --second-color: #b49300;
-  --third-color: #efdf00;
+  --second-color: #b8a007eb;
+  --third-color: #e8ba00b0;
   --body-text-color: #d9dae2;
   --divider-color: #d8dfe0;
 }
