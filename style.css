@@ -2107,8 +2107,8 @@ textarea.w-select {
 :root {
   --white: black;
   --main-color: white;
-  --second-color: #b8a007eb;
-  --third-color: #e8ba00b0;
+  --second-color: #34332cb1;
+  --third-color: #848381b0;
   --body-text-color: #d9dae2;
   --divider-color: #d8dfe0;
 }
@@ -4688,6 +4688,7 @@ figcaption {
 .button-face {
   background-color: var(--second-color);
   padding: 1rem 1.75rem;
+  border-radius: 100px;
 }
 
 .button-face.hover {
@@ -4697,6 +4698,7 @@ figcaption {
   position: absolute;
   top: 100%;
   transform: rotateX(-90deg) rotateY(0) rotateZ(0);
+  border-radius: 100px;
 }
 
 .button-flex {
