@@ -8,6 +8,21 @@
   lang="en"
 >
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-2X930E7Y3R"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-2X930E7Y3R");
+    </script>
+
     <meta charset="utf-8" />
     <title>Vibbix Studio</title>
     <meta
@@ -831,339 +846,315 @@
                 </div>
               </div>
             </div>
+
+            <!-- /services -->
+            <style>
+              .image-wrapper {
+                height: 100%;
+                width: 100%;
+              }
+              .work-title {
+              }
+            </style>
+
             <div class="margin-100px">
               <div class="w-dyn-list">
                 <div role="list" class="blog-grid w-dyn-items">
-                  <style></style>
+                  <!-- <style>
+                    .blog-main-wrapper {
+                      position: relative;
+                      overflow: hidden;
+                    }
+
+                    .inside {
+                      position: absolute;
+                      top: 50%;
+                      left: 50%;
+                      transform: translate(-50%, -50%) scale(0.95);
+                      opacity: 0;
+                      background: rgba(0, 0, 0, 0.6);
+                      border-radius: 6px;
+                      color: #fff;
+                      z-index: 2;
+                      text-align: center;
+                      transition: opacity 0.4s ease, transform 0.4s ease;
+                      width: 100%;
+                      height: 100%;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      backdrop-filter: blur(4px); /* Optional */
+                    }
+
+                    .blog-main-wrapper:hover .inside {
+                      opacity: 1;
+                      transform: translate(-50%, -50%) scale(1);
+                    }
+
+                    .inside div {
+                      font-size: 1.1rem;
+                      font-weight: bold;
+                      color: white;
+                      text-transform: uppercase;
+                      pointer-events: none;
+                    }
+
+                    .inside div {
+                      font-size: 1.1rem;
+                      font-weight: bold;
+                      color: white;
+                      text-transform: uppercase;
+                      pointer-events: none;
+                      margin-top: -20px; /* 👈 Add top gap */
+                    }
+
+                    .image-wrap.auto img {
+                      transition: transform 0.4s ease;
+                    }
+
+                    .blog-main-wrapper:hover .image-wrap.auto img {
+                      transform: scale(1.05);
+                    }
+                  </style> -->
 
                   <div role="listitem" class="w-dyn-item">
-                    <a
-                      href="./services.html#graphics"
-                      class="blog-main-wrapper w-inline-block"
-                    >
-                      <!-- <div class="button-icon-main">
-                        <div class="buton-icon-svg w-embed">
-                          <svg
-                            width="100%"
-                            height="100%"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M7 17L17 7M17 7H7M17 7V17"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </div>
-                        <div class="buton-icon-svg is-absolute w-embed">
-                          <svg
-                            width="100%"
-                            height="100%"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M7 17L17 7M17 7H7M17 7V17"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </div>
-                      </div> -->
+                    <div class="work-wrapper">
                       <div
-                        data-w-id="08a84c25-c229-a16e-2821-6c7763635782"
-                        class="image-wrap auto"
+                        data-w-id="6319eb54-4678-f1c2-df90-4c7184478370"
+                        class="image-wrap"
                       >
                         <img
-                          loading="lazy"
-                          src="https://images.pexels.com/photos/56759/pexels-photo-56759.jpeg"
-                          alt=""
-                          sizes="(max-width: 767px) 94vw, (max-width: 991px) 46vw, (max-width: 1919px) 30vw, 463.3359375px"
                           class="paralax-image"
+                          loading="lazy"
+                          style="
+                            will-change: transform;
+                            transform: translate3d(0px, 6.6813%, 0px)
+                              scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                              rotateZ(0deg) skew(0deg, 0deg);
+                            transform-style: preserve-3d;
+                            object-fit: cover;
+                          "
+                          sizes="(max-width: 767px) 94vw, (max-width: 991px) 46vw, (max-width: 1919px) 30vw, 463.3359375px"
+                          src="./images/services/design.jpg"
                         />
                       </div>
-                      <!-- <div class="margin-30px">
-                        <div class="data-flex">
-                          <div class="data-inside">
-                            <div class="data-image invert">
-                              <img
-                                loading="lazy"
-                                src="https://cdn.prod.website-files.com/677bbe3f761bd2b2bc7bedd7/677bbe3f761bd2b2bc7bede8_data-light.svg"
-                                alt=""
-                              />
+                      <div class="title-wrapper">
+                        <h2 class="work-title">Graphic Design</h2>
+                        <div class="button-flex _20px">
+                          <a
+                            data-w-id="8d60c3ad-c2ae-eb14-7c41-af45ec64a523"
+                            href="./services.html#graphics"
+                            class="button-3d w-inline-block"
+                          >
+                            <div class="button-inner" style="">
+                              <div class="button-face static" style="">
+                                <div>view</div>
+                              </div>
+                              <div class="button-face hover" style="">
+                                <div>view</div>
+                              </div>
                             </div>
-                            <p class="data-text">October 8, 2023</p>
-                          </div>
-                          <div class="data-inside">
-                            <div class="data-image invert">
-                              <img
-                                loading="lazy"
-                                src="https://cdn.prod.website-files.com/677bbe3f761bd2b2bc7bedd7/677bbe3f761bd2b2bc7bede4_time-light.svg"
-                                alt=""
-                              />
+                          </a>
+                        </div>
+                      </div>
+                      <div class="work-overlay"></div>
+                      <div class="top-part">
+                        <!-- <p class="top-text">UI, UX, Development</p>
+                      <p class="top-text">CSS Award</p> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div role="listitem" class="w-dyn-item">
+                    <div class="work-wrapper">
+                      <div
+                        data-w-id="6319eb54-4678-f1c2-df90-4c7184478370"
+                        class="image-wrap"
+                      >
+                        <img
+                          class="paralax-image"
+                          loading="lazy"
+                          style="
+                            will-change: transform;
+                            transform: translate3d(0px, 6.6813%, 0px)
+                              scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                              rotateZ(0deg) skew(0deg, 0deg);
+                            transform-style: preserve-3d;
+                            object-fit: cover;
+                          "
+                          sizes="(max-width: 767px) 94vw, (max-width: 991px) 46vw, (max-width: 1919px) 30vw, 463.3359375px"
+                          src="./images/services/social.jpg"
+                        />
+                      </div>
+                      <div class="title-wrapper">
+                        <h2 class="work-title">Social Media Marketing</h2>
+                        <div class="button-flex _20px">
+                          <a
+                            data-w-id="8d60c3ad-c2ae-eb14-7c41-af45ec64a523"
+                            href="./services.html#social"
+                            class="button-3d w-inline-block"
+                          >
+                            <div class="button-inner" style="">
+                              <div class="button-face static" style="">
+                                <div>view</div>
+                              </div>
+                              <div class="button-face hover" style="">
+                                <div>view</div>
+                              </div>
                             </div>
-                            <p class="data-text">5</p>
-                            <p class="data-text">min read</p>
-                          </div>
+                          </a>
                         </div>
-                      </div> -->
-                      <div class="margin-20px">
-                        <div style="text-transform: uppercase">
-                          Graphic Design Services
-                        </div>
-                      </div></a
-                    >
-                  </div>
-                  <div role="listitem" class="w-dyn-item">
-                    <a
-                      href="./services.html#social"
-                      class="blog-main-wrapper w-inline-block"
-                    >
-                      <!-- <div class="button-icon-main">
-                        <div class="buton-icon-svg w-embed">
-                          <svg
-                            width="100%"
-                            height="100%"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M7 17L17 7M17 7H7M17 7V17"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </div>
-                        <div class="buton-icon-svg is-absolute w-embed">
-                          <svg
-                            width="100%"
-                            height="100%"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M7 17L17 7M17 7H7M17 7V17"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </div>
-                      </div> -->
-                      <div
-                        data-w-id="08a84c25-c229-a16e-2821-6c7763635782"
-                        class="image-wrap auto"
-                      >
-                        <img
-                          loading="lazy"
-                          src="https://images.pexels.com/photos/9746/people-mother-family-father.jpg"
-                          alt=""
-                          sizes="(max-width: 767px) 94vw, (max-width: 991px) 46vw, (max-width: 1919px) 30vw, 463.3359375px"
-                          class="paralax-image"
-                        />
                       </div>
-
-                      <div class="margin-20px">
-                        <div style="text-transform: uppercase">
-                          Social Media Marketing Services
-                        </div>
-                      </div></a
-                    >
-                  </div>
-                  <div role="listitem" class="w-dyn-item">
-                    <a
-                      href="./services.html#content"
-                      class="blog-main-wrapper w-inline-block"
-                    >
-                      <!-- <div class="button-icon-main">
-                        <div class="buton-icon-svg w-embed">
-                          <svg
-                            width="100%"
-                            height="100%"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M7 17L17 7M17 7H7M17 7V17"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </div>
-                        <div class="buton-icon-svg is-absolute w-embed">
-                          <svg
-                            width="100%"
-                            height="100%"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M7 17L17 7M17 7H7M17 7V17"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </div>
-                      </div> -->
-                      <div
-                        data-w-id="08a84c25-c229-a16e-2821-6c7763635782"
-                        class="image-wrap auto"
-                      >
-                        <img
-                          loading="lazy"
-                          src="https://images.pexels.com/photos/5414049/pexels-photo-5414049.jpeg"
-                          alt=""
-                          sizes="(max-width: 767px) 94vw, (max-width: 991px) 46vw, (max-width: 1919px) 30vw, 463.3359375px"
-                          class="paralax-image"
-                        />
+                      <div class="work-overlay"></div>
+                      <div class="top-part">
+                        <!-- <p class="top-text">UI, UX, Development</p>
+                      <p class="top-text">CSS Award</p> -->
                       </div>
-
-                      <div class="margin-20px">
-                        <div style="text-transform: uppercase">
-                          Content Writing Services
-                        </div>
-                      </div></a
-                    >
+                    </div>
                   </div>
 
                   <div role="listitem" class="w-dyn-item">
-                    <a
-                      href="./services.html#photo"
-                      class="blog-main-wrapper w-inline-block"
-                    >
-                      <!-- <div class="button-icon-main">
-                        <div class="buton-icon-svg w-embed">
-                          <svg
-                            width="100%"
-                            height="100%"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M7 17L17 7M17 7H7M17 7V17"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </div>
-                        <div class="buton-icon-svg is-absolute w-embed">
-                          <svg
-                            width="100%"
-                            height="100%"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M7 17L17 7M17 7H7M17 7V17"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </div>
-                      </div> -->
+                    <div class="work-wrapper">
                       <div
-                        data-w-id="08a84c25-c229-a16e-2821-6c7763635782"
-                        class="image-wrap auto"
+                        data-w-id="6319eb54-4678-f1c2-df90-4c7184478370"
+                        class="image-wrap"
                       >
                         <img
-                          loading="lazy"
-                          src="https://images.pexels.com/photos/4882164/pexels-photo-4882164.jpeg"
-                          alt=""
-                          sizes="(max-width: 767px) 94vw, (max-width: 991px) 46vw, (max-width: 1919px) 30vw, 463.3359375px"
                           class="paralax-image"
+                          loading="lazy"
+                          style="
+                            will-change: transform;
+                            transform: translate3d(0px, 6.6813%, 0px)
+                              scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                              rotateZ(0deg) skew(0deg, 0deg);
+                            transform-style: preserve-3d;
+                            object-fit: cover;
+                          "
+                          sizes="(max-width: 767px) 94vw, (max-width: 991px) 46vw, (max-width: 1919px) 30vw, 463.3359375px"
+                          src="./images/services/content.jpg"
                         />
                       </div>
-                      <div class="margin-20px">
-                        <div style="text-transform: uppercase">
-                          Professional Videography Services
+                      <div class="title-wrapper">
+                        <h2 class="work-title">Content Writing</h2>
+                        <div class="button-flex _20px">
+                          <a
+                            data-w-id="8d60c3ad-c2ae-eb14-7c41-af45ec64a523"
+                            href="./services.html#content"
+                            class="button-3d w-inline-block"
+                          >
+                            <div class="button-inner" style="">
+                              <div class="button-face static" style="">
+                                <div>view</div>
+                              </div>
+                              <div class="button-face hover" style="">
+                                <div>view</div>
+                              </div>
+                            </div>
+                          </a>
                         </div>
-                      </div></a
-                    >
+                      </div>
+                      <div class="work-overlay"></div>
+                      <div class="top-part">
+                        <!-- <p class="top-text">UI, UX, Development</p>
+                      <p class="top-text">CSS Award</p> -->
+                      </div>
+                    </div>
                   </div>
+
                   <div role="listitem" class="w-dyn-item">
-                    <a
-                      href="./services.html#video"
-                      class="blog-main-wrapper w-inline-block"
-                    >
-                      <!-- <div class="button-icon-main">
-                        <div class="buton-icon-svg w-embed">
-                          <svg
-                            width="100%"
-                            height="100%"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M7 17L17 7M17 7H7M17 7V17"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </div>
-                        <div class="buton-icon-svg is-absolute w-embed">
-                          <svg
-                            width="100%"
-                            height="100%"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M7 17L17 7M17 7H7M17 7V17"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </div>
-                      </div> -->
+                    <div class="work-wrapper">
                       <div
-                        data-w-id="08a84c25-c229-a16e-2821-6c7763635782"
-                        class="image-wrap auto"
+                        data-w-id="6319eb54-4678-f1c2-df90-4c7184478370"
+                        class="image-wrap"
                       >
                         <img
-                          loading="lazy"
-                          src="https://images.pexels.com/photos/8102680/pexels-photo-8102680.jpeg"
-                          alt=""
-                          sizes="(max-width: 767px) 94vw, (max-width: 991px) 46vw, (max-width: 1919px) 30vw, 463.3359375px"
                           class="paralax-image"
+                          loading="lazy"
+                          style="
+                            will-change: transform;
+                            transform: translate3d(0px, 6.6813%, 0px)
+                              scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                              rotateZ(0deg) skew(0deg, 0deg);
+                            transform-style: preserve-3d;
+                            object-fit: cover;
+                          "
+                          sizes="(max-width: 767px) 94vw, (max-width: 991px) 46vw, (max-width: 1919px) 30vw, 463.3359375px"
+                          src="./images/services/video.jpg"
                         />
                       </div>
-
-                      <div class="margin-20px">
-                        <div style="text-transform: uppercase">
-                          Video Editing & Animation Services
+                      <div class="title-wrapper">
+                        <h2 class="work-title">Professional Videography</h2>
+                        <div class="button-flex _20px">
+                          <a
+                            data-w-id="8d60c3ad-c2ae-eb14-7c41-af45ec64a523"
+                            href="./services.html#photo"
+                            class="button-3d w-inline-block"
+                          >
+                            <div class="button-inner" style="">
+                              <div class="button-face static" style="">
+                                <div>view</div>
+                              </div>
+                              <div class="button-face hover" style="">
+                                <div>view</div>
+                              </div>
+                            </div>
+                          </a>
                         </div>
-                      </div></a
-                    >
+                      </div>
+                      <div class="work-overlay"></div>
+                      <div class="top-part">
+                        <!-- <p class="top-text">UI, UX, Development</p>
+                      <p class="top-text">CSS Award</p> -->
+                      </div>
+                    </div>
+                  </div>
+
+                  <div role="listitem" class="w-dyn-item">
+                    <div class="work-wrapper">
+                      <div
+                        data-w-id="6319eb54-4678-f1c2-df90-4c7184478370"
+                        class="image-wrap"
+                      >
+                        <img
+                          class="paralax-image"
+                          loading="lazy"
+                          style="
+                            will-change: transform;
+                            transform: translate3d(0px, 6.6813%, 0px)
+                              scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                              rotateZ(0deg) skew(0deg, 0deg);
+                            transform-style: preserve-3d;
+                            object-fit: cover;
+                          "
+                          sizes="(max-width: 767px) 94vw, (max-width: 991px) 46vw, (max-width: 1919px) 30vw, 463.3359375px"
+                          src="./images/services/edit.jpg"
+                        />
+                      </div>
+                      <div class="title-wrapper">
+                        <h2 class="work-title">Video Editing & Animation</h2>
+                        <div class="button-flex _20px">
+                          <a
+                            data-w-id="8d60c3ad-c2ae-eb14-7c41-af45ec64a523"
+                            href="./services.html#video"
+                            class="button-3d w-inline-block"
+                          >
+                            <div class="button-inner" style="">
+                              <div class="button-face static" style="">
+                                <div>view</div>
+                              </div>
+                              <div class="button-face hover" style="">
+                                <div>view</div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="work-overlay"></div>
+                      <div class="top-part">
+                        <!-- <p class="top-text">UI, UX, Development</p>
+                      <p class="top-text">CSS Award</p> -->
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1384,7 +1375,7 @@
                         "
                       >
                         <source
-                          src="./videos/logo/Insta Intro.mp4"
+                          src="./videos/logo/novix studios4.mp4"
                           type="video/mp4"
                         />
                         Your browser does not support the video tag.
@@ -1598,7 +1589,7 @@
           <div class="services-left-content">
             <div>
               <div>
-                <h3 class="service-title">Logo design and ANIMATIONs</h3>
+                <h3 class="service-title">Vlog and video blog Edits</h3>
               </div>
 
               <div class="margin-40px">
@@ -1613,7 +1604,7 @@
             <div class="margin-50px">
               <a
                 data-w-id="4e5146ed-87bf-7d7e-4641-5a1a6d0aae50"
-                href="./works/logo.html"
+                href="./works/vlog.html"
                 class="button-3d w-inline-block"
               >
                 <div class="button-inner">
@@ -1645,7 +1636,7 @@
                 height: 100%;
               "
             >
-              <source src="./videos/logo/novix studios4.mp4" />
+              <source src="./videos/vlog/parambaryam.mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
@@ -1703,63 +1694,6 @@
                 </div>
               </a>
             </div>
-          </div>
-        </div>
-
-        <div class="home-services-item sticky reverse">
-          <div class="services-left-content">
-            <div>
-              <div>
-                <h3 class="service-title">Vlog and video blog Edits</h3>
-              </div>
-
-              <div class="margin-40px">
-                <!-- <div class="service-flex">
-                  <div class="service-content">Media Strategy</div>
-                  <div class="service-content">Video</div>
-                  <div class="service-content">Engaging</div>
-                  <div class="service-content">Storytelling</div>
-                </div> -->
-              </div>
-            </div>
-            <div class="margin-50px">
-              <a
-                data-w-id="4e5146ed-87bf-7d7e-4641-5a1a6d0aae50"
-                href="./works/vlog.html"
-                class="button-3d w-inline-block"
-              >
-                <div class="button-inner">
-                  <div class="button-face static"><div>View Works</div></div>
-                  <div class="button-face hover"><div>View Works</div></div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div
-            data-w-id="66d77d67-602e-1166-96b4-866bbc1c7e1e"
-            class="image-wrap mobile-auto"
-          >
-            <video
-              class="paralax-image"
-              autoplay
-              loop
-              muted
-              playsinline
-              loading="lazy"
-              width="1000"
-              style="
-                will-change: transform;
-                transform: translate3d(0px, 0.0207%, 0px) scale3d(1, 1, 1)
-                  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                transform-style: preserve-3d;
-                object-fit: cover;
-                width: 100%;
-                height: 100%;
-              "
-            >
-              <source src="./videos/vlog/parambaryam.mp4" />
-              Your browser does not support the video tag.
-            </video>
           </div>
         </div>
       </section>
